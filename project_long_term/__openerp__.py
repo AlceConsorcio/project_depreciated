@@ -19,13 +19,14 @@
 #
 ##############################################################################
 
-{
-    'name': 'Long Term Projects',
+{'name': 'Long Term Projects',
     'version': '1.1',
     'author': 'OpenERP SA',
     'website': 'http://www.openerp.com',
     'category': 'Project Management',
-    'images': ['images/project_phase_form.jpeg','images/project_phases.jpeg', 'images/resources_allocation.jpeg'],
+    'images': ['images/project_phase_form.jpeg',
+               'images/project_phases.jpeg',
+               'images/resources_allocation.jpeg'],
     'depends': ['project'],
     'description': """
 Long Term Project management module that tracks planning, scheduling, resources allocation.
@@ -45,19 +46,17 @@ Features:
       are scheduled with taking the phase's start date.
     """,
     'demo': ['project_long_term_demo.xml'],
-    'test': [
-          'test/phase_process.yml',
-          'test/task_process.yml',
-    ],
-    'data': [
-        'security/ir.model.access.csv',
-        'project_long_term_view.xml',
-        'project_long_term_workflow.xml',
-        'wizard/project_compute_phases_view.xml',
-        'wizard/project_compute_tasks_view.xml',
-    ],
+    'test': ['test/phase_process.yml',
+             'test/task_process.yml',
+             ],
+    'data': ['security/ir.model.access.csv',
+             'project_long_term_view.xml',
+             'project_long_term_workflow.xml',
+             'wizard/project_compute_phases_view.xml',
+             'wizard/project_compute_tasks_view.xml',
+             ],
     'installable': True,
     'auto_install': False,
-}
+ }
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

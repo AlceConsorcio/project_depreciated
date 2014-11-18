@@ -27,7 +27,7 @@
     'sequence': 100,
     'summary': 'Personal Tasks, Contexts, Timeboxes',
     'description': """
-Implement concepts of the "Getting Things Done" methodology 
+Implement concepts of the "Getting Things Done" methodology
 ===========================================================
 
 This module implements a simple personal to-do list based on tasks. It adds an editable list of tasks simplified to the minimum required fields in the project application.
@@ -49,7 +49,7 @@ GTD rests on the principle that a person needs to move tasks out of the mind by 
         'wizard/project_gtd_fill_view.xml',
     ],
     'demo': ['project_gtd_demo.xml'],
-    'test':['test/task_timebox.yml'],
+    'test': ['test/task_timebox.yml'],
     'installable': True,
     'auto_install': False,
 }
