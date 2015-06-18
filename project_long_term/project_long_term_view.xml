@@ -103,7 +103,8 @@
                 </xpath>
                 <xpath expr="//div[@name='buttons']" position='inside'>
                         <button name="%(act_project_phases)d"
-                                string="Phases" type="action"
+                                string="Phases" type="action" icon="fa-indent"
+                                class="oe_inline oe_stat_button"
                                 attrs="{'invisible':[('use_phases','=', 0)]}"/>
                 </xpath>
             </field>
